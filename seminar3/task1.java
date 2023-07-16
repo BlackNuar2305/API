@@ -10,7 +10,7 @@ import java.lang.reflect.Array;
 public class task1 {
 
     public static void main(String[] args) {
-        ArrayList<String> arr = new ArrayList<>(Arrays.asList("земля", "марс", "земля",
+        ArrayList<String> arr = new ArrayList(Arrays.asList("земля", "марс", "земля",
                                                                  "венера", "венера", "земля"));
         System.out.println(arr);
         int count = 0;
